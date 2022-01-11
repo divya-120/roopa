@@ -11,7 +11,7 @@ public class KubeSpringDockApplication {
 	
 	@GetMapping("/message")
 	public String displayMessage(){
-		return "Congratulation you successfully deployed your application to kubernetes !!";
+		return "Congratulation you successfully deployed your application to Openshift !!";
 	}
 
 	public static void main(String[] args) {
